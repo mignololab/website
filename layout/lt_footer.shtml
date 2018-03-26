@@ -1,0 +1,33 @@
+            </div>
+
+            <!--
+            <div class="span3 tabbable">
+
+                    <div class="well sidebar-nav">
+                    <ul class="nav nav-list">
+                        <li class="nav-header">INFO VARIE</li>
+                        <li class="active"><a href="#" data-toggle="tab">Che ci vuoi qua?</a></li>
+                        <li><a href="#batman" data-toggle="tab">Batman</a></li>
+                        <li><a href="#spiderman" data-toggle="tab">Spiderman</a></li>
+                        <li><a href="#">Robin</a></li>
+                        <li><a href="#">Joker</a></li>
+                        <li><a href="#">Superman</a></li>
+                    </ul>
+                    </div>
+
+            </div>
+            -->
+
+        </div>
+
+    </div>
+
+    <!--#include virtual="footer.shtml" -->
+
+</div>
+
+<script type="text/javascript" src="<!--#echo var="BASE" -->/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="<!--#echo var="BASE" -->/js/bootstrap-patched.min.js"></script>
+
+</body>
+</html>

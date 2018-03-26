@@ -1,0 +1,77 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 17</h2>
+</div>
+
+<h4>PROGRAMMA TEST</h4>
+
+<p>
+Scrivete il seguente programma e compilatelo.
+</p>
+
+<pre>
+Device 16f84			'Questo serve ad indicare il tipo di PIC utilizzato
+
+Define PORTA = %11111111	'Istruzioni viste più avanti
+Define PORTB = %00000000	'Per PBP Sostituire con TRIA=255 TRISB=0
+
+DIM	Numero1 as Byte		'Variabile generica 1
+DIM	Numero2 as Byte		'Variabile generica 2
+DIM	TotaleVariabili as byte	'Variabile per contenere il totale
+
+Numero1 = 1			'Inizializzazione della variabile
+Numero2 = 2			'Inizializzazione della variabile
+
+TotaleVariabili = Numero1 + Numero2	'Totale delle variabili
+
+OUTB(TotaleVariabili)		'Istruzione per visualizzare il valore
+'Per PBP usare PORTB al posto di OUTB
+
+END	'Fine del programma
+</pre>
+
+<p>
+Questo programma somma 2 variabili e visualizza il suo valore nella portaB, cio&egrave; nella barra dei led presente nel Micro Pic Trainer.
+</p>
+
+<p>
+Una volta compilato il programma, aprite ICProg e carichiamo l'esadecimale dal men&ugrave; File Apri oppure con un click sull'icona <img src="tut17_images/Apri.jpg">.<br/>
+Colleghiamo la porta parallela al programmatore e diamogli alimentazione.<br/>
+Facciamo click sull'icona  oppure andiamo nel men&ugrave; Comandi <img src="tut17_images/ProgrammaTutto.jpg"> Programma tutto.<br/>
+Rispondiamo <b>SI</b> alla finestra di conferma ed attendiamo che il processo termini.
+</p>
+
+<p>
+ATTENZIONE: pu&ograve; capitare che il PIC non si programmi correttamente, cancellate il programma con il pulsante <img src="tut17_images/CancellaPIC.jpg"> e riprogrammatelo.
+</p>
+
+<p>
+Ora andiamo a vedere sulla barra dei led il risultato, dovranno essere accesi i primo 2 led da destra.<br/>
+NB: L'ultimo led acceso segnala la presenza dell'alimentatore.
+</p>
+
+<p class="text-center">
+<img src="tut17_images/TreBinario.jpg">
+</p>
+
+<p>
+Il valore 3 &egrave; visualizzato in binario, per sapere se la conversione &egrave; corretta
+avviamo la calcolatrice di Windows (in modalit&agrave; scientifica), inseriamo il numero 3 e selezioniamo BIN sotto il display.
+Il valore sar&agrave; il seguente 00000011. Gli zeri prima dei numeri uno (11) saranno cancellati.
+</p>
+
+<p>
+Adesso associamo il numero 1 ai diodi led accesi e lo zero ai diodi led spenti.
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

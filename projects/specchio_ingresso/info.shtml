@@ -1,0 +1,5 @@
+<!--#set var="PROJECT_NAME" value="Specchio per l'ingresso" -->
+<!--#set var="PROJECT_URL" value="specchio_ingresso/" -->
+<!--#set var="PROJECT_IMAGE" value="specchio_ingresso/images/specchio_ingresso.png" -->
+<!--#set var="PROJECT_OVERVIEW" value="Come riutilizzare uno specchio di un vecchio armadio." -->
+<!--#set var="PROJECT_DATE" value="28/06/2015" -->

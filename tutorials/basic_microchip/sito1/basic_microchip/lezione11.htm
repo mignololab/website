@@ -1,0 +1,58 @@
+<html>
+
+<head>
+
+<title>LEZIONE 11</title>
+
+<LINK href="../../../../style/stile.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body >
+
+<div class=Section1>
+
+<h1>LEZIONE 11</h1>
+
+<h3>Quando si conservano delle cose in contenitori, &egrave opportuno usare contenitori di dimensioni
+appropriate.<br>
+Se devo conservare delle penne e dei pennarelli non utilizzer&ograve una scatola di scarpe ma un astuccio,
+se devo conservare una macchina utilizzer&ograve un box, in sintesi andr&ograve a proporzionare il contenitore
+per il suo contenuto.<br>
+Questo ragionamento &egrave fatto per risparmiare spazio.<br>
+Lo stesso discorso si applica alla memoria dei PIC.<br>
+Le locazioni di memoria devono essere proporzionate al contenuto.<br></3>
+
+
+<h3>Dichiarare una variabile di tipo <i>BYTE</i> e quindi che pu&ograve contenere valori da 0 a 255 per poi
+utilizzarla con un numero che pu&ograve arrivare a 300 vuol dire aver perso i valori che vanno da 256 a
+300, perch&egrave la variabile non riesce a contenerli, provocando errori nel programma.
+Usare una variabile di tipo <i>WORD</i> (da 0 a 65535) per poi inserire un valore che al massimo arrivi a
+100 vuol dire sprecare spazio di memoria.
+Questa mentalit&agrave &egrave molto importante perch&egrave la memoria e le risorse dei PIC non sono molte come in
+un computer classico quindi non si possono sprecare.
+<br></h3>
+
+<h3>Qui di seguito vi evidenzio la differenza tra una variabile BYTE ed una WORD.
+La variabile BYTE occupa una casella di memoria, mentre la WORD ne occupa 2.<br><br></h3>
+
+<p class=MsoNormal align=center style='text-align:center'>
+<img align=center border = 0 src="lezione11/memoria3.jpg"></p><br><br>
+
+<h3>Ogni area di memoria, a sua volta pu&ograve essere divisa in 8 piccole parti chiamate <i>BIT</i>.<br>
+Nel singolo BIT si pu&ograve inserire un solo valore, o zero od uno e la dichiarazione &egrave la seguente:<br><br></h3>
+
+<p class=MsoNormal align=center style='text-align:center'>
+<img align=center border = 0 src="lezione11/memoria4.jpg"></p><br><br>
+
+<h3>Ricapitolando:<br><br>
+Una Word &egrave composta da due Byte, un Byte &egrave compito da 8 bit.<br><br>
+DIM Nome AS Tipo <i>'Struttura generale della dichiarazione delle variabili</i><br>
+Esempio:<br>
+Dim Totale as Bit <i>'0 - 1</i><br>
+Dim TotaleParziale as BYTE <i>'0-255</i><br>
+Dim Numero as WORD <i>'0-65535</i><br></h3><br><br>
+
+<a href="lezione12.htm">LEZIONE 12</a><br>
+<a href="lezione10.htm">LEZIONE 10</a><br>
+</body></html>

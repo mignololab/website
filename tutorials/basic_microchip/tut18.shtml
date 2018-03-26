@@ -1,0 +1,88 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 18</h2>
+</div>
+
+<h4>PROGRAMMA TEST</h4>
+
+<p>
+Eseguiamo altre prove con altri valori e calcoli.
+</p>
+
+<pre>
+Device 16f84		'Questo serve ad indicare il tipo di PIC utilizzato
+
+Define PORTA = %11111111 	'Istruzioni viste pi&ugrave avanti
+Define PORTB = %00000000	'Per PBP vedere lezione 17
+
+DIM	Numero1 as Byte		'Variabile generica 1
+DIM	Numero2 as Byte		'Variabile generica 2
+DIM	TotaleVariabili as byte	'Variabile per contenere il totale
+
+Numero1 = 2			'Inizializzazione della variabile
+Numero2 = 2			'Inizializzazione della variabile
+
+TotaleVariabili = Numero1 * Numero2	'Risultato della moltiplicazione
+
+OUTB(TotaleVariabili)		'Istruzione per visualizzare il valore
+'Per PBP vedere lezione 17
+
+END					'Fine del programma
+</pre>
+
+<pre>
+Device 16f84		'Questo serve ad indicare il tipo di PIC utilizzato
+
+Define PORTA = %11111111 	'Istruzioni viste pi&ugrave avanti
+Define PORTB = %00000000	'Per PBP vedere lezione 17
+
+DIM	Numero1 as Byte		'Variabile generica 1
+DIM	Numero2 as Byte		'Variabile generica 2
+DIM	TotaleVariabili as byte	'Variabile per contenere il totale
+
+Numero1 = 4			'Inizializzazione della variabile
+Numero2 = 2			'Inizializzazione della variabile
+
+TotaleVariabili = Numero1 - Numero2	'Risultato della sottrazione
+
+OUTB(TotaleVariabili)		'Istruzione per visualizzare il valore
+	'Per PBP vedere lezione 17
+
+END	'Fine del programma
+</pre>
+
+<pre>
+Device 16f84		'Questo serve ad indicare il tipo di PIC utilizzato
+
+Define PORTA = %11111111 	'Istruzioni viste pi&ugrave avanti
+Define PORTB = %00000000	'Per PBP vedere lezione 17
+
+DIM	Numero1 as Byte		'Variabile generica 1
+DIM	Numero2 as Byte		'Variabile generica 2
+DIM	TotaleVariabili as byte	'Variabile per contenere il totale 
+
+Numero1 = 4			'Inizializzazione della variabile
+Numero2 = 2			'Inizializzazione della variabile
+
+TotaleVariabili = Numero1 / Numero2	'Risultato dell'operazione
+OUTB(TotaleVariabili)		'Istruzione per visualizzare il valore
+'Per PBP vedere lezione 17
+
+END					'Fine del programma
+</pre>
+
+<p class="text-center">
+<img src="tut17_images/TreBinario.jpg"/>
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

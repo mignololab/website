@@ -1,0 +1,36 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 16</h2>
+</div>
+
+<h4>ICPROG</h4>
+
+<p>
+Per inserire il programma all'interno del PIC abbiamo bisogno di un programmatore software ed uno hardware.
+</p>
+
+<p>
+Per il programmatore software, io ho utilizzato ICPROG, scaricabile gratuitamente da internet o nella sezione programmi del mio sito.<br/>
+Per quanto riguarda i settagi e la configurazione, vi rimando a questa pagina <a href="http://www.ivotek.it/robotica/TUTORIALMICROROBOTWEB/LEZIONE12.HTM">qui.</a>
+</p>
+
+<p>
+Per il programmatore hardware e per i test, ho utilizzato il MicropicTrainer, ma in commercio ne troverete degli altri altrettanto validi.
+</p>
+
+<p>
+Una volta configurato e settato il software potete scrivere il programma e scaricarlo all'interno del PIC.
+La basetta test &egrave; molto importante perch&egrave; permette di vedere i valori all'interno dei registri e capire come funzionano le istruzioni ed il PIC.
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

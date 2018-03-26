@@ -1,0 +1,53 @@
+<html>
+
+<head>
+
+<title>LEZIONE 8</title>
+
+<LINK href="../../../../style/stile.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body >
+
+<div class=Section1>
+
+<h1>LEZIONE 8</h1>
+
+
+<h3>Adesso analizziamo il sorgente scritto in precedenza.<br>
+<i>#CHIP</i> &egrave una "parola chiave" che serve ad indicare al compilatore quale tipo di PIC stiamo
+utilizzando, in questo caso &egrave il 16F84, dopo la virgola bisogna inserire la frequenza di lavoro che in
+questo caso &egrave di 4 MHZ.<br>
+Se volevamo usare il PIC 16F628 a 20 MHZ avremmo dovuto scrivere:<br>
+<i>#CHIP 16f628, 20</i></3>
+
+
+<h3>Il testo inserito dopo l'apice &egrave un commento, questo testo non &egrave preso in considerazione dal
+compilatore, ma serve a noi come promemoria.<br>
+I commenti sono molto importanti, grazie ai commenti possiamo riprendere un vecchio sorgente e
+capire cosa fa la riga di codice in cui si trova il commento oppure passare il nostro sorgente ad
+un'alra persona senza dovergli spiegare la funzione del programma.
+</h3><br><br>
+
+
+<h3>Durante la scrittura del sorgente pu&ograve capitare di commettere degli errori di sintassi, ovvero si
+sbaglia a scrivere, per esempio si pu&ograve scrivere <i>#CHIPS</i> al posto di <i>#CHIP.</i><br>
+In questo caso il compilatore non crea il file assembler ne tanto meno il file esadecimale, quindi fate
+attenzione quando scrivere e riguardate il sorgente scritto.<br><br></h3>
+
+<h3>Per aiutarvi nel rintracciare l'errore il compilatore genera un file chiamato <i>ERRORS.TXT</i> dove
+all'interno troverete il numero di riga dove si trova l'errore e il tipo di errore.
+<br><br></h3>
+
+<h3>Il GCBASIC non &egrave "case sensitive" ovvero non fa differenza tra maiuscole e minuscole, quindi la
+scritta <i>#CHIP</i> &egrave uguale alla scritta <i>#Chip</i>.
+Un altra cosa da ricordare &egrave che una volta scritto o modificato il sorgente dovete salvarlo prima di
+compilarlo altrimenti il GCBASIC compila l'ultimo sorgente salvato.<br><br></h3>
+
+<h3>La parola chiave <i>END</i> indica la fine del sorgente.</h3>
+
+<br><br></font><br><br>
+<a href="lezione9.htm">LEZIONE 9</a><br>
+<a href="lezione7.htm">LEZIONE 7</a><br>
+</body></html>

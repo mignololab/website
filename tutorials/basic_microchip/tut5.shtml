@@ -1,0 +1,74 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 5</h2>
+</div>
+
+<h4>Struttura di un sorgente</h4>
+
+<p>
+Un sorgente &egrave; delimitato da un inizio ed una fine, ed al suo interno sono inserite le istruzioni che il
+programma deve eseguire.<br/>
+Queste istruzioni sono in sequenza ovvero una dopo l'altra:
+</p>
+
+<p>
+<pre>
+Inizio
+ISTRUZIONE 1
+ISTRUZIONE 2
+ISTRUZIONE 3
+ISTRUZIONE 4
+ISTRUZIONE 5
+ISTRUZIONE 6
+Fine
+</pre>
+</p>
+
+<p>Non si possono eseguire due istruzioni nello stesso tempo:</p>
+
+<pre>
+ISTRUZIONE1 ed ISTRUZIONE2 <span class="text-error">(ERRATA)</span>
+</pre>
+
+<p>
+Le istruzioni inserite devono essere sempre riconosciute dal compilatore, non si pu&ograve inserire delle
+istruzioni che il compilatore non conosce, quindi bisogna usare una sintassi molto precisa che varia
+da compilatore a compilatore, di seguito vi espongo degli esempi.
+</p>
+
+<pre>#INCLUDE</pre>
+<p class="text-success">
+CORRETTA perch&egrave; &egrave; conosciuta dal compilatore
+</p>
+
+<pre>#CHIP</pre>
+<p class="text-success">
+CORRETTA perch&egrave; &egrave; conosciuta dal compilatore
+</p>
+
+<pre>DICHIARA</pre>
+<p class="text-error">
+ERRATA perch&egrave; non &egrave; conosciuta dal compilatore
+</p>
+
+<pre>DISPOSITIVO</pre>
+<p class="text-error">
+ERRATA perch&egrave; non &egrave; conosciuta dal compilatore
+</p>
+
+<p>
+Nel seguente manuale saranno spiegate parte delle parole chiavi accettate dal compilatore
+GCBASIC per le altre fate riferimento al manuale in dotazione.
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

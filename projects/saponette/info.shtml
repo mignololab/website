@@ -1,0 +1,5 @@
+<!--#set var="PROJECT_NAME" value="Saponette fatte in casa" -->
+<!--#set var="PROJECT_URL" value="saponette/" -->
+<!--#set var="PROJECT_IMAGE" value="saponette/images/saponette.png" -->
+<!--#set var="PROJECT_OVERVIEW" value="Come fare le saponette in casa." -->
+<!--#set var="PROJECT_DATE" value="14/03/2015" -->

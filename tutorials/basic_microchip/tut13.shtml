@@ -1,0 +1,61 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 13</h2>
+</div>
+
+<p>
+Analizziamo il programma.
+<p>
+
+<p>
+All'inizio le variabili sono dichiarate con la parola chiave vista in precedenza <code>DIM</code>.
+In seguito vengono <i>"inizializzate"</i>, ovvero &egrave; inserito un valore per la prima volta.
+<p>
+
+<pre>
+Numero1 = 5
+Numero2 = 7
+Numero3 = 3
+</pre>
+
+<p>
+La prima istruzione incrementa la variabile <code>Numero3</code>.<br/>
+L'istruzione va letta da destra verso sinistra, quindi sommiamo 1 al contenuto della variabile
+<code>Numero3</code> (in questo caso il valore 3) ed il totale lo rimettiamo nella stessa variabile <code>Numero3</code>.
+Ora <code>Numero3</code> conterr&agrave; il valore 4.
+</p>
+
+<p>
+Poi le variabili <code>Numero1</code> e <code>Numero2</code> sono sommate ed il risultato e inserito nella variabile
+<code>TotaleVariabili</code>.<br/>
+Ed in fine la variabile <code>Numero3</code> &egrave; incrementata di nuovo di 3 valori.
+</p>
+
+<p>
+I valori delle variabili alla fine del programma sono:
+</p>
+
+<pre>
+Numero1 = 5
+Numero2 = 7
+Numero3 = 7
+TotaleVariabili = 12
+</pre>
+
+<p>
+Come abbiamo detto in precedenza, il PIC contiene delle porte d'input e d'output, le variabili
+possono essere utilizzate per memorizzare dei valori provenienti od uscenti da queste porte.
+Il discorso sar&agrave; approfondito pi&ugrave; avanti.
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

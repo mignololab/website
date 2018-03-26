@@ -1,0 +1,77 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 12</h2>
+</div>
+
+<p>
+Quando si dichiarano le variabili, non si possono usare degli spazi, non a caso <code>TotaleParziale</code> &egrave;
+tutto attaccato, non possono iniziare con dei numeri, quindi &egrave; errato scrivere 1TotaleParziale e non
+si possono usare delle parole chiavi.<br/>
+Riassumendo, non &egrave; corretto scrivere:
+</p>
+
+<pre>
+Dim 1TotaleParziale as Byte
+Dim Totale Parziale as Byte
+Dim #CHIP as Byte
+</pre>
+
+<p>
+Le variabili di solito sono dichiarate all'inizio del sorgente, anche se molti compilatori permettono
+di dichiarare le variabili all'interno del codice, &egrave; buona norma dichiararle all'inizio.<br/>
+Questo per permettere un facile rintracciamento in caso di errori del sorgente o di logica.
+</p>
+
+<p>
+Una volta dichiarate le variabili, si possono utilizzare all'interno del programma.
+</p>
+
+<p>
+La prima istruzione <code>TotaleParziale = 3+3</code> somma i due valori ed <i>"assegna"</i> il risultato alla
+variabile <code>TotaleParziale</code>.<br/>
+Le istruzioni si leggono da destra verso sinistra ed il segno = &egrave; l'operatore d'assegnazione.<br/>
+Quindi il risultato dell'operazione 3+3 &egrave; assegnato (inserito) alla locazione di memoria chiamata
+<code>TotaleParziale</code>.
+</p>
+
+<p>
+Nella seconda istruzione <code>Totale = TotaleParziale + 3</code> si somma il contenuto della
+variabile <code>TotaleParziale</code> (che &egrave; 6) all'altro 3 ed il risultato s'inserisce nella variabile chiamata <code>Totale</code>
+(che &egrave; 9).
+</p>
+
+<p>
+Alla fine delle due operazioni noi avremmo due variabili che contengono il totale parziale ed il
+totale finale dell'operazione.
+</p>
+
+<p>
+Le variabili possono essere usate al posto dei numeri o per memorizzare dei valori che poi andranno
+cambiati. Esempio:
+</p>
+
+<pre>#chip 16f84, 4 'Tipo di PIC utilizzato e frequenza
+DIM  Numero1 as Byte 'Variabile generica 1
+DIM  Numero2 as Byte 'Variabile generica 2
+DIM  Numero3 as Byte 'Variabile generale
+DIM  TotaleVariabili as byte 'Variabile per contenere il totale
+Numero1 = 5 'Inizializzazione della variabile
+Numero2 = 7 'Inizializzazione della variabile
+Numero3 = 3 'Inizializzazione della variabile
+Numero3 = Numero3 +1 'Incremento della variabile
+TotaleVariabili = Numero1 + Numero2 'Totale delle variabili
+Numero3 = Numero3 +3 'Incremento della variabile
+END 'Fine del programma
+</pre>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

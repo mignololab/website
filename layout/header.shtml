@@ -1,0 +1,7 @@
+<div class="container-inner" id="header">
+    <div class="masthead">
+    <a id="sitename" title="<!--#echo var="TITLE" -->" href="<!--#echo var="BASE" -->/"><img
+        alt="<!--#echo var="TITLE" -->" src="<!--#echo var="BASE" -->/img/header.png"/></a>
+    <h6 id="sitedesc" class="muted"><!--#echo var="SUMMARY" --></h6>
+    </div>
+</div>

@@ -1,0 +1,55 @@
+<!--#include virtual="config.shtml" -->
+<!--#include virtual="layout/lt_header.shtml" -->
+
+<div class="content">
+
+<div class="hero-unit">
+
+<p><strong>MignoloLab</strong> è un laboratorio per la progettazione e la costruzione di
+qualsiasi cosa.</p>
+<p>
+
+<p>
+Si possono progettare dai semplici aerei di carta ai CNC a controllo numerico,
+passando per gli anelli, braccialetti e robot.
+</p>
+
+<p>
+Lo scopo principale è <strong>riciclare materiale che doveva essere gettato</strong> e
+quindi per molti inutilizzabile, ma non disdegna i progetti e le creazioni di ogni artista.
+Il laboratorio è aperto a tutti, potete collaborare per la realizzazione di un
+progetto in comune o inviare un vostro progetto, dal più semplice al più difficile.
+</p>
+
+<blockquote class="lead text-right">
+Nulla si crea, nulla si distrugge, tutto si trasforma.
+<small>Antoine Lavoisier</small>
+</blockquote>
+
+</div>
+
+<div class="well">
+<div class="nav-header">News</div>
+<!--#include virtual="projects/primo_soccorso/info.shtml"-->
+<!--#include virtual="layout/proj_quicklink.shtml" -->
+<!--#include virtual="projects/regalo_personalizzato/info.shtml" -->
+<!--#include virtual="layout/proj_quicklink.shtml" -->
+<!--#include virtual="projects/quaderni/info.shtml" -->
+<!--#include virtual="layout/proj_quicklink.shtml" -->
+<!--#include virtual="projects/saponette/info.shtml"-->
+<!--#include virtual="layout/proj_quicklink.shtml" -->
+<!--#include virtual="projects/contenitori_plastica/info.shtml"-->
+<!--#include virtual="layout/proj_quicklink.shtml" -->
+<!--#include virtual="projects/ripristino_bussola/info.shtml"-->
+<!--#include virtual="layout/proj_quicklink.shtml" -->
+
+
+
+
+
+</div>
+
+
+</div>
+
+<!--#include virtual="layout/lt_footer.shtml" -->

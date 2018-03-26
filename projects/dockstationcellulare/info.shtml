@@ -1,0 +1,5 @@
+<!--#set var="PROJECT_NAME" value="Dock station per cellulare" -->
+<!--#set var="PROJECT_URL" value="dockstationcellulare/" -->
+<!--#set var="PROJECT_IMAGE" value="dockstationcellulare/images/dock_cell.jpg" -->
+<!--#set var="PROJECT_OVERVIEW" value="Trasformare un impianto 2.1 per PC in una dock station per cellulari." -->
+<!--#set var="PROJECT_DATE" value="02/10/2013" -->

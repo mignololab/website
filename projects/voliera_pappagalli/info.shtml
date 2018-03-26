@@ -1,0 +1,5 @@
+<!--#set var="PROJECT_NAME" value="Voliera per pappagalli economica" -->
+<!--#set var="PROJECT_URL" value="voliera_pappagalli/" -->
+<!--#set var="PROJECT_IMAGE" value="voliera_pappagalli/images/20.JPG" -->
+<!--#set var="PROJECT_OVERVIEW" value="Costruire una voliera per pappagalli con un costo non superiore ai 30 euro." -->
+<!--#set var="PROJECT_DATE" value="20/02/2014" -->

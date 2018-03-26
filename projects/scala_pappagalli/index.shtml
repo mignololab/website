@@ -1,0 +1,41 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="page-header page-header-article">
+<h2>Scala per pappagalli <span class="difficulty label label-success">Difficolt&agrave;: BASSA</span></h2>
+</div>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/1.jpg" width="320" height="240">
+</div>
+
+<p>
+Procuratevi quattro pezzi di legno delle dimensioni che preferite.
+</p>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/2.jpg" width="320" height="240">
+</div>
+
+<p>
+Applicate a tutte le estremità degli occhieli filettati, come in foto
+</p>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/3.jpg" width="320" height="240">
+</div>
+
+<p>Ora applicate le graffette come in figura fino a formare la scala.<br>
+Consultate il video per avere più informazioni.</p>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/4.jpg" width="320" height="240">
+</div>
+
+<p>
+<a href=http://youtu.be/fb1kim4I1Ro>Fare click qui per il video</a>
+</p>
+
+ 
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

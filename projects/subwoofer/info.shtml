@@ -1,0 +1,5 @@
+<!--#set var="PROJECT_NAME" value="Subwoofer" -->
+<!--#set var="PROJECT_URL" value="subwoofer/" -->
+<!--#set var="PROJECT_IMAGE" value="subwoofer/images/subwoofer.jpg" -->
+<!--#set var="PROJECT_OVERVIEW" value="Trasformare un impianto 2.1 per PC in un impianto subwoofer per auto." -->
+<!--#set var="PROJECT_DATE" value="01/10/2013" -->

@@ -1,0 +1,69 @@
+<!--#include virtual="../config.shtml" -->
+<!--#include virtual="../layout/lt_header.shtml" -->
+
+<!-- BASSA -->
+<div class="project-list">
+
+<a name="low"></a>
+<div><span class="label label-success">Difficolt&agrave;: BASSA</span></div>
+<!--#include virtual="fischietto_seme/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="paletta_semi/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="mangiatoia_pappagalli/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="subwoofer/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="dockstationcellulare/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="scala_pappagalli/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="Portafoto_cd/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="Griglia_flash/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->.
+<!--#include virtual="aereo_carta_jet/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="tappo_contenitore/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="parabolina_wireless/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="adattatore_cell_caval/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="gettone_carrello/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="contenitore_bottiglia/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="scatoline_cartone/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="Mangiatoia_uccelli/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="lama_taglierino/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="piega_carta/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="contenitori_armadio/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="ripristino_bussola/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="contenitori_plastica/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="primo_soccorso/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+</div>
+
+<!-- MEDIA -->
+<div class="project-list">
+
+<a name="medium"></a>
+<div><span class="label label-warning">Difficolt&agrave;: MEDIA</span></div>
+
+<!--#include virtual="mobile_libreria/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="Aquilone_giornale/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="Aquilone_busta/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="box_sottovuoto/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="taglia_bottiglie/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="gabbia_riscaldata/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="specchio_ingresso/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="alimentatore_pc/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="recupero_batterie/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="blocco_notes/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="quaderni/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="regalo_personalizzato/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+</div>
+
+
+<!-- ALTA -->
+<div class="project-list">
+
+<a name="high"></a>
+<div><span class="label label-important">Difficolt&agrave;: ALTA</span></div>
+
+<!--#include virtual="gabbia_cocorite/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="voliera_pappagalli/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="trapano_colonna/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="saponette/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+
+
+</div>
+
+
+<!--#include virtual="../layout/lt_footer.shtml" --> 

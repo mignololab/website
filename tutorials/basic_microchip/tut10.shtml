@@ -1,0 +1,86 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 10</h2>
+</div>
+
+<p>
+Scrivete nel blocco note o nell IDE precedentemente installato le seguenti istruzioni:
+</p>
+
+<pre>
+#chip 16f84, 4                     'Tipo di PIC utilizzato e frequenza
+DIM    TotaleParziale as Byte      'Locazione di memoria che conterr&agrave; il 6
+DIM    Totale as Byte              'Locazione di memoria che conterr&agrave; il 9
+TotaleParziale = 3+3               'Prima somma
+Totale = TotaleParziale + 3        'Seconda somma
+END                                'Fine del programma
+</pre>
+
+<p>
+Analizziamo il programma appena scritto.
+</p>
+
+<p>
+<code>DIM</code> &egrave; la parola chiave che ci permette di dichiarare le variabili e dargli un nome, in questo caso
+dichiariamo due variabili, una chiamata <code>TotaleParziale</code> e l'altra <code>Totale</code>.
+</p>
+
+<p>
+<code>AS</code> &egrave; la parola chiave che ci permette di specificare di che tipo deve essere la variabile.
+</p>
+
+<p>
+<code>BYTE</code> &egrave; un tipo di variabile che si pu&ograve; utilizzare con il GCBASIC.<br/>
+Esistono cinque tipi diversi di variabili e sono indicati nella tabella:
+</p>
+
+<p class="text-center">
+<img src="tut10_images/tabellatipi.jpg">
+</p>
+
+<p>
+Il tipo di dato <code>BIT</code> pu&ograve; memorizzare solo il valore 1 oppure 0 (zero), di solito viene utilizzato nei
+programmi per determinare se un operazione &egrave; stata fatta oppure se &egrave; stata eseguita una parte di
+codice.
+</p>
+
+<p>
+Il tipo di dato <code>BYTE</code> pu&ograve; memorizzare i numeri da 0 (zero) a 255, ed &egrave; utilizzata per memorizzare
+numeri per le operazioni o per contatori, in questa variabile NON si possono memorizzare valori
+negativi come -13 oppure valori con la virgola come 13,5 anche se positivi.
+</p>
+
+<p>
+Il tipo di dato <code>WORD</code> pu&ograve; memorizzare i numeri compresi tra 0 (zero) e 65535, &egrave; utilizzato nelle
+situazioni in cui bisogna memorizzare valori molto grandi di numeri, non si possono memorizzare
+valori negativi o con la virgola.
+</p>
+
+<p>
+Il tipo di dato <code>ARRAY</code> &egrave; la memorizzazione complessa di pi&ugrave; valori che vedremo pi&ugrave; avanti.
+</p>
+
+<p>
+Il tipo di dato <code>STRING</code> permette di memorizzare le stringhe ovvero un insieme di caratteri o
+numeri per formare una frase compiuta.<br/>
+Esempio:
+</p>
+<pre>
+"Questa &egrave; 1 stringa"
+</pre>
+
+<p>
+Come si vede dall'esempio la stringa permette di inserire testo e numeri al suo interno
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

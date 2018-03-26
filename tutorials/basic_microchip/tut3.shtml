@@ -1,0 +1,46 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 3</h2>
+</div>
+
+<h4>PROGRAMMAZIONE</h4>
+
+<p>
+Per programmare i PIC si deve scrivere un codice sorgente.
+Scritto il sorgente, dobbiamo trasformarlo in programma esadecimale per poi scaricarlo all'interno
+della memoria del microcontrollore.
+</p>
+
+<p>
+Per scaricare il programma esadecimale nel microcontrollore dobbiamo usare un software (che
+vedremmo pi&ugrave; avanti) e di un dispositivo hardware chiamato "programmatore per PIC".
+</p>
+
+<p>
+Di programmatori per PIC ne troverete molti in commercio, a prezzi e prestazioni differenti.
+In rete si trovano molti schemi che vi permettono di costruirvelo da soli, se non riuscite a trovarli
+inviatemi un email od andate nella sezione del Poor relativa al programmatore.
+</p>
+
+<p>
+La sequenza di programmazione cambia secondo il programmatore e il software scelto, in seguito
+noi ne vediamo un solo tipo, per gli altri fate riferimento alle istruzioni contenute nella guida in
+linea del software.
+</p>
+
+Oltre al programmatore avremmo bisogno (ma non &egrave; indispensabile) di una scheda test per le nostre
+prove o del microrobot Poor o Monty, la Microsystem Engineering vende il Micropic trainer che,
+al suo interno &egrave; dotato di un programmatore ed una scheda test, se non lo trovate va bene una qualsiasi scheda test.
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

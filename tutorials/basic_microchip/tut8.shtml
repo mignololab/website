@@ -1,0 +1,62 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 8</h2>
+</div>
+
+<p>
+Adesso analizziamo il sorgente scritto in precedenza.
+</p>
+
+<p>
+<code>#CHIP</code> &egrave; una "parola chiave" che serve ad indicare al compilatore quale tipo di PIC stiamo
+utilizzando, in questo caso &egrave; il 16F84, dopo la virgola bisogna inserire la frequenza di lavoro che in
+questo caso &egrave; di 4 MHZ.<br>
+Se volevamo usare il PIC 16F628 a 20 MHZ avremmo dovuto scrivere:
+</p>
+
+<pre>
+#CHIP 16f628, 20
+</pre>
+
+<p>
+Il testo inserito dopo l'apice &egrave; un commento, questo testo non &egrave; preso in considerazione dal
+compilatore, ma serve a noi come promemoria.<br/>
+I commenti sono molto importanti, grazie ai commenti possiamo riprendere un vecchio sorgente e
+capire cosa fa la riga di codice in cui si trova il commento oppure passare il nostro sorgente ad
+un'alra persona senza dovergli spiegare la funzione del programma.
+</p>
+
+<p>
+Durante la scrittura del sorgente pu&ograve; capitare di commettere degli errori di sintassi, ovvero si
+sbaglia a scrivere, per esempio si pu&ograve; scrivere <code>#CHIPS</code> al posto di <code>#CHIP.</code><br/>
+In questo caso il compilatore non crea il file assembler ne tanto meno il file esadecimale, quindi fate
+attenzione quando scrivere e riguardate il sorgente scritto.
+</p>
+
+<p>
+Per aiutarvi nel rintracciare l'errore il compilatore genera un file chiamato <i>ERRORS.TXT</i> dove
+all'interno troverete il numero di riga dove si trova l'errore e il tipo di errore.
+</p>
+
+<p>
+Il GCBASIC non &egrave; "case sensitive" ovvero non fa differenza tra maiuscole e minuscole, quindi la
+scritta <code>#CHIP</code> &egrave; uguale alla scritta <code>#Chip</code>.
+Un altra cosa da ricordare &egrave; che una volta scritto o modificato il sorgente dovete salvarlo prima di
+compilarlo altrimenti il GCBASIC compila l'ultimo sorgente salvato.
+</p>
+
+<p>
+La parola chiave <code>END</code> indica la fine del sorgente.
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

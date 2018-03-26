@@ -1,0 +1,53 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 4</h2>
+</div>
+
+<h4>Programmi utilizzati</h4>
+
+<p>
+Per scrivere il sorgenti in basic per PIC, utilizziamo il programma GCBASIC. Questo programma &egrave;
+scaricabile all'indirizzo <a href="http://gcbasic.sourceforge.net/">http://gcbasic.sourceforge.net/</a> gratuitamente.
+</p>
+
+<p>
+Il programma sopra citato non fa altro che trasformare il codice sorgente in codice esadecimale.
+Per capirci, il codice sorgente &egrave; un insieme di parole in inglese e "parole chiavi" che il PIC non
+riesce a capire, i programmi "traducono" il codice sorgente in un codice che &egrave; conosciuto dal PIC.
+</p>
+
+<p>
+Questo programma &egrave; anche chiamato compilatore.
+Una volta avuto il nostro codice in esadecimale, deve essere solo scaricarlo all'interno del PIC.
+Vi sar&agrave; spiegato come programmare in basic e come scaricare il programma nel PIC utilizzando la
+sintassi del programma GCBASIC, altri programmatori basic possono avere una sintassi differente
+quindi fate riferimento al manuale degli stessi.
+Per facilitare la scrittura del codice sorgente utilizzeremo l'IDE reperibile gratuitamente
+all'indirizzo <a href="http://www.swli9528ps.altervista.org/serv01.htm">http://www.swli9528ps.altervista.org/serv01.htm</a>.
+</p>
+
+<p>
+Per scaricare il programma all'interno del PIC utilizzeremo ICPROG, un programma gratuito
+facilmente scaricabile dalla rete o qualunque altro voi abiate in possesso.
+</p>
+
+<p>
+L'hardware utilizzato &egrave; il programmatore per il microrobot Poor che potete trovare nel sito, nessuno vieta di utilizzare un qualsiasi programmatore per PIC.
+</p>
+
+<p>
+I test sono stati effettuati sul Micropic Trainer e sul microrobot Poor, per la costruzione del Poor
+potete scaricare le lezioni gratuite direttamente nella sezione Robotica.
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

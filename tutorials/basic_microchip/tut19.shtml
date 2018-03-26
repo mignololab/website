@@ -1,0 +1,45 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 19</h2>
+</div>
+
+<h4>PROGRAMMA TEST</h4>
+
+<p>
+Se vogliamo eseguire delle operazioni matematiche con delle precedenze, dobbiamo usare le
+parentesi tonde, come in questo caso:
+</p>
+
+<pre>
+TotaleVariabili = 4* (Numero1 - Numero2 + (3+5))
+</pre>
+
+<p>
+Le parentesi pi&ugrave; interne sono eseguite prima delle parentesi esterne.
+Supponiamo di avere i seguenti valori per le variabili:
+</p>
+
+<pre>
+Numero1 = 24
+Numero2 = 6
+</pre>
+
+<p>
+La primo operazione sar&agrave; <code>(3+5) = 8</code>.<br/>
+Successivamente la somma <code>Numero2 + 8 = 14</code><br/>
+Poi <code>Numero1 - 14 = 10</code>.<br/>
+In seguito, <code>10 * 4 = 40</code>.<br/>
+Alla variabile <code>TotaleVariabili</code> sar&agrave; assegnato il valore 40.
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

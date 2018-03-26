@@ -1,0 +1,19 @@
+<!--#include virtual="config.shtml" -->
+<!--#include virtual="layout/lt_header.shtml" -->
+
+<div class="content">
+
+<div class="page-header"><h4>Contattaci per condividere un tuo progetto, per chiedere informazioni o altro.</h4></div>
+
+<p class="lead">
+
+<i class="icon-custom icon-email"></i> info (at) mignololab.org<br/>
+<i class="icon-custom icon-youtube"></i> <a href="http://youtube.com/mignololab">youtube.com/mignololab</a><br/>
+<i class="icon-custom icon-twitter"></i> <a href="http://twitter.com/mignololab">twitter.com/mignololab</a><br/>
+<i class="icon-custom icon-facebook"></i> <a href="http://facebook.com/pages/Mignololab/1389936697908951">facebook.com/mignololab</a><br/>
+
+</p>
+
+</div>
+
+<!--#include virtual="layout/lt_footer.shtml" -->

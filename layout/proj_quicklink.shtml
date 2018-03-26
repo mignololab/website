@@ -1,0 +1,5 @@
+<div>
+[<!--#echo var="PROJECT_DATE" -->]
+<a href="projects/<!--#echo var="PROJECT_URL" -->"><!--#echo var="PROJECT_NAME" --></a>
+&nbsp;&mdash;&nbsp;<!--#echo var="PROJECT_OVERVIEW" -->
+</div>

@@ -1,0 +1,63 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 2</h2>
+</div>
+
+<h4>IL MICROCONTROLLORE</h4>
+
+<p>
+Il microcontrollore deve essere visto come un piccolo computer, come quelli che abbiamo nelle
+nostre case.
+Essendo molto piccolo, ha poca memoria ram ed un piccolo disco rigido ma, anch'esso avr&agrave; delle
+porte per comunicare con l'esterno (input, output).
+Appena acquistate il microcontrollore (o PIC), &egrave; vergine, in pratica non contiene nessun programma
+al suo interno, e quindi non fa nulla.
+Vuol dire che alimentando il PIC non abbiamo nessuna reazione da parte sua.
+Per ottenere delle reazioni dal PIC dobbiamo programmarlo con i seguenti linguaggi di
+programmazione.
+
+<ul>
+<li>BASIC</li>
+<li>C</li>
+<li>ASSEMBLER</li>
+</ul>
+</p>
+
+<p>
+I linguaggi sono ordinati dal pi&ugrave; facile (BASIC), al pi&ugrave; difficile (assembler).
+Il linguaggio BASIC &egrave; il pi&ugrave; facile da imparare e va molto bene per i principianti o per programmi
+relativamente semplici, ma ha i suoi difetti, ovvero non permette un controllo approfondito del
+microcontrollore.
+Se vogliamo avere un maggior controllo sul microcontrollore, dobbiamo cambiare il linguaggio di
+programmazione e spostarci sul C, che per&ograve; presenta pi&ugrave; difficolt&agrave; d'apprendimento rispetto al
+basic.
+Infine abbiamo l'assembler, il linguaggio che permette un controllo totale del microcontrollore, ma &egrave;
+molto difficile da imparare.
+</p>
+
+<p>
+I programmi in BASIC sono convertiti (da appositi programmi) in linguaggio assembler e lo stesso
+vale per i programmi in linguaggio C.<br/>
+I programmi in assembler a loro volta sono convertiti in codice esadecimale, un codice che il
+microcontrollore riesce ad interpretare ed a eseguire.
+</p>
+
+<p>
+Ricapitolando:
+</p>
+
+<p class="text-center">
+<img src="tut2_images/conversione.jpg">
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

@@ -1,0 +1,74 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 9</h2>
+</div>
+
+<h4>Variabili</h4>
+
+<p>
+Il programma appena fatto non contiene nessuna istruzione al suo interno, per&ograve; viene compilato
+senza errori.<br/>
+Questo programma non fa nulla.<br/>
+Per scrivere un programma con delle istruzioni dobbiamo usare delle variabili.
+Le variabili sono aree di memoria predisposte a contenere informazioni.
+Facciamo un esempio:<br/>
+Se dobbiamo eseguire un calcolo simile al seguente 3+3+3 il nostro cervello, si comporta nel
+seguente modo:
+</p>
+
+<ol>
+<li>Somma 3+3 e ricorda il risultato, (tiene in mente o in memoria).</li>
+<li>Somma il risultato in mente con l'altro 3 e tiene in mente il totale.</li>
+</ol>
+
+<p>
+Per i PIC, il discorso &egrave; analogo, dopo sommati i primi due valori, il risultato parziale deve essere
+messo in un'area di memoria, altrimenti viene perso (dimenticato).<br/>
+La memoria va vista come una grossa scatola, divisa a sua volta da tante altre piccole scatole, ogni
+piccola scatola &egrave; un'area di memoria.
+</p>
+
+<p class="text-center">
+<img src="tut9_images/memoria.jpg">
+</p>
+
+<p>
+Nella prima operazione il risultato parziale &egrave messo in un'area di memoria, come in foto.
+</p>
+
+<p class="text-center">
+<img src="tut9_images/memoria1.jpg">
+</p>
+
+<p>
+Nella seconda operazione il totale &egrave; messo in un'altra area di memoria.
+</p>
+
+<p class="text-center">
+<img src="lezione9/memoria2.jpg">
+</p>
+
+<p>
+A queste <i>locazioni di memoria</i> sono assegnati dei nomi, per essere raggiunte pi&ugrave; facilmente, e
+vanno dichiarate prima dell'utilizzo all'interno del programma.
+La dichiarazione delle variabili serve al PIC per sapere quanta memoria deve usare e su quale
+casella deve andare.<br/>
+<b>Esempio</b>: la prima casella che conterr&agrave; il 6, &egrave; chiamata <code>TotaleParziale</code>, e la casella che conterr&agrave; il 9 &egrave;
+chiamata <code>Totale</code>.
+</p>
+
+<p>
+Con queste informazioni possiamo realizzare il primo programma.
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

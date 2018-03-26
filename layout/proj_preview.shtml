@@ -1,0 +1,8 @@
+<div class="project-box">
+<span class="project-title"><a href="<!--#echo var="PROJECT_URL" -->"><!--#echo var="PROJECT_NAME" --></a></span>
+<img src="<!--#echo var="PROJECT_IMAGE" -->"/>
+<div class="project-overview clearfix">
+<!--#echo var="PROJECT_OVERVIEW" -->
+</div>
+
+</div>

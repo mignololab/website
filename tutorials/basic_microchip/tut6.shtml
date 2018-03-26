@@ -1,0 +1,69 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 6</h2>
+</div>
+
+<h4>GCBASIC</h4>
+
+<p>
+Installiamo il programma lasciando tutte le impostazioni di default.
+Alla fine dell'installazione dovremmo avere nella cartella programmi una sotto cartella chiamata
+GCBASIC con all'interno i file in foto.
+</p>
+
+<p class="text-center">
+<img src="tut6_images/gcbasic.jpg">
+</p>
+
+<p>
+Il file che al momento ci interessa &egrave; quello chiamato COMPILE.BAT, evidenziato in rosso.
+Questo file ci permette di compilare i nostri sorgenti semplicemente trascinandoli sopra.
+Ora installiamo il programma BasicIDE per GCBASIC, ed alla fine settiamo i parametri come segue.
+</p>
+
+<p>
+Aprite BasicIDE, andate sul men&ugrave; <i>Options</i> poi <i>Settings</i> e fate click.
+</p>
+
+<p class="text-center">
+<img src="tut6_images/setting.jpg">
+</p>
+
+<p>
+Si aprir&agrave; la finestra dei settagli come in foto.
+</p>
+
+<p class="text-center">
+<img src="tut6_images/setting1.jpg">
+</p>
+
+<p>
+Selezionate la lingua italiana e fate click sul pulsante <i>Search</i>.
+Si aprir&agrave; la finestra sottostante:
+</p>
+
+<p class="text-center">
+<img src="tut6_images/search.jpg">
+</p>
+
+<p>
+Dovete cercare il file COMPILE.BAT che di solito si trova nel percorso
+<code>C:\Programmi\GCBasic</code>, <i>C:</i> sta ad indicare il vostro disco locale.<br/>
+Selezionatelo e fate clic su <i>Apri</i> e poi su <i>Apply</i> ed infine su <i>Esci</i>.
+</p>
+
+<p>
+L'IDE &egrave; settato e pronto per il test.
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

@@ -1,0 +1,75 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 11</h2>
+</div>
+
+<p>
+Quando si conservano delle cose in contenitori, &egrave; opportuno usare contenitori di dimensioni
+appropriate.<br/>
+Se devo conservare delle penne e dei pennarelli non utilizzer&ograve; una scatola di scarpe ma un astuccio,
+se devo conservare una macchina utilizzer&ograve; un box, in sintesi andr&ograve; a proporzionare il contenitore
+per il suo contenuto.<br/>
+Questo ragionamento &egrave; fatto per risparmiare spazio. Lo stesso discorso si applica alla memoria dei PIC.
+Le locazioni di memoria devono essere proporzionate al contenuto.
+</p>
+
+<p>
+Dichiarare una variabile di tipo <code>BYTE</code> e quindi che pu&ograve; contenere valori da 0 a 255 per poi
+utilizzarla con un numero che pu&ograve; arrivare a 300 vuol dire aver perso i valori che vanno da 256 a
+300, perch&egrave; la variabile non riesce a contenerli, provocando errori nel programma.
+Usare una variabile di tipo <code>WORD</code> (da 0 a 65535) per poi inserire un valore che al massimo arrivi a
+100 vuol dire sprecare spazio di memoria.
+Questa mentalit&agrave; &egrave; molto importante perch&egrave; la memoria e le risorse dei PIC non sono molte come in
+un computer classico quindi non si possono sprecare.
+</p>
+
+<p>
+Qui di seguito vi evidenzio la differenza tra una variabile <code>BYTE</code> ed una <code>WORD</code>.
+La variabile <code>BYTE</code> occupa una casella di memoria, mentre la <code>WORD</code> ne occupa 2.
+</p>
+
+<p class="text-center">
+<img src="tut11_images/memoria3.jpg">
+</p>
+
+<p>
+Ogni area di memoria, a sua volta pu&ograve; essere divisa in 8 piccole parti chiamate <code>BIT</code>.<br/>
+Nel singolo <code>BIT</code> si pu&ograve; inserire un solo valore, o zero od uno e la dichiarazione &egrave; la seguente:
+</p>
+
+<p class="text-center">
+<img src="tut11_images/memoria4.jpg">
+</p>
+
+<p>
+Ricapitolando:
+<blockquote>
+Una word &egrave; composta da due byte, un byte &egrave; composto da 8 bit.
+</blockquote>
+</p>
+
+<pre>
+DIM Nome AS Tipo 'Struttura generale della dichiarazione delle variabili
+</pre>
+
+<p>
+Esempio:
+</p>
+
+<pre>
+Dim Totale as Bit            '0 - 1
+Dim TotaleParziale as BYTE   '0-255
+Dim Numero as WORD           '0-65535
+</pre>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

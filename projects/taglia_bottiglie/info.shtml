@@ -1,0 +1,5 @@
+<!--#set var="PROJECT_NAME" value="Taglia bottiglie" -->
+<!--#set var="PROJECT_URL" value="taglia_bottiglie/" -->
+<!--#set var="PROJECT_IMAGE" value="taglia_bottiglie/images/taglia_bottiglie.png" -->
+<!--#set var="PROJECT_OVERVIEW" value="Come costruire un taglia bottiglie." -->
+<!--#set var="PROJECT_DATE" value="13/04/2015" -->

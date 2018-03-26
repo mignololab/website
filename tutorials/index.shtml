@@ -1,0 +1,10 @@
+<!--#include virtual="../config.shtml" -->
+<!--#include virtual="../layout/lt_header.shtml" -->
+
+<div class="project-list">
+
+<!--#include virtual="basic_microchip/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+
+</div>
+
+<!--#include virtual="../layout/lt_footer.shtml" --> 

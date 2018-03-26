@@ -1,0 +1,84 @@
+<html>
+
+<head>
+
+<title>LEZIONE 14</title>
+
+<LINK href="../../../../style/stile.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body >
+
+<div class=Section1>
+
+<h1>LEZIONE 14</h1>
+
+<h1>COSTANTI</h1>
+
+<h3>Oltre alle variabili abbiamo a disposizione le costanti.<br>
+Le costanti sono aree di memoria che non possono variare nel tempo, ovvero rimangono costanti.<br>
+Possono essere utilizzate nei programmi al posto dei valori numerici od altro.<br>
+Sono molto comode quando un valore per i vari calcoli pu&ograve variare a distanza di anni, facciamo un
+esempio.<br><br></h3>
+
+<h3>Supponiamo di dover effettuare 5 calcoli:<br>
+<i>Calcolo1 = Lavoro1 + 20%<i><br>
+<i>Calcolo2 = Lavoro2 + 20%<i><br>
+<i>Calcolo3 = Lavoro3 + 20%<i><br>
+<i>Calcolo4 = Lavoro4 + 20%<i><br>
+<i>Calcolo5 = Fattura + 20%<i><br></h3>
+
+<h3>In questo caso i 4 lavori avrebbero un importo differente tra loro mentre il 20% (l'Iva) rimarr&agrave
+sempre la stessa, un domani che l'Iva aumenta o diminuisce bisognerebbe modificare a mano tutti e
+5 i valori.<br>
+Per evitare questo si utilizzano le costanti, si crea una costante chiamata IVA e si assegna il valore
+20%, e si utilizza nel seguente modo:<br><br></h3>
+
+<h3><i>Costante IVA = 20%<i><br>
+<i>Calcolo1 = Lavoro1 + Iva<i><br>
+<i>Calcolo2 = Lavoro2 + Iva<i><br>
+<i>Calcolo3 = Lavoro3 + Iva<i><br>
+<i>Calcolo4 = Lavoro4 + Iva<i><br>
+<i>Calcolo5 = Fattura + Iva<i><br><br></h3>
+
+<h3>In questo caso se l'Iva cambia basta sostituire solo il valore 20% senza andare a toccare il
+programma, con un notevole risparmio di tempo.<br>
+Per dichiarare una costante si utilizza la seguente sintassi:<br><br></h3>
+
+<h3>Struttura generale<br>
+<i>#DEFINE NomeCostante Valore</i><br><br>
+Dichiarazione tipo<br>
+<i>#DEFINE IVA 20%</i>
+
+<h3>Esempio:<br><br>
+#chip 16f84, 4 <i>'Questo serve ad indicare il tipo di PIC utilizzato</i><br>
+#DEFINE Costante 8 <i>'Costante di valore 8</i><br>
+DIM Numero1 as Byte <i>'Variabile generica 1</i><br>
+DIM Numero2 as Byte <i>'Variabile generica 2</i><br>
+DIM TotaleVariabili as byte <i>'Variabile per contenere il totale</i><br>
+DIM Variabile as Byte <i>'Variabile generale</i><br>
+Numero1 = 5 <i>'Inizializzazione della variabile</i><br>
+Numero2 = 7 <i>'Inizializzazione della variabile</i><br>
+Variabile = 5 <i>'Inizializzazione della variabile</i><br>
+Variabile = Variabile + 1 + Costante <i>'Incremento della variabile</i><br>
+TotaleVariabili = Numero1 + Numero2 <i>'Totale delle variabili</i><br>
+Variabile = Variabile + 3 + Costante <i>'Incremento della variabile</i><br>
+END <i>'Fine del programma</i><br><br></h3>
+
+<h3>Alla quarta istruzione, usiamo la costante.<br>
+Scrivere<br>
+<b>Variabile = Variabile +1 + Costante</b><br>
+equivale a scrivere<br>
+<b>Variabile = Variabile + 1+8</b><br>
+Perch&egrave la costante &egrave di valore 8.<br>
+In questo esercizio non si vede molto l'utilit&agrave ma immaginate un programma con molte righe di
+codice, se dobbiamo cambiare il valore di <i>"Costante"</i>, lo faremo una sola volta (nella
+dichiarazione), se invece abbiamo messo i numeri li dobbiamo andare a sostituire uno ad uno.
+
+<br><br></h3>
+
+
+<a href="lezione15.htm">LEZIONE 15</a><br>
+<a href="lezione14.htm">LEZIONE 14</a><br>
+</body></html>

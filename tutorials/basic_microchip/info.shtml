@@ -1,0 +1,5 @@
+<!--#set var="PROJECT_NAME" value="BASIC Microchip" -->
+<!--#set var="PROJECT_URL" value="basic_microchip/" -->
+<!--#set var="PROJECT_IMAGE" value="basic_microchip/images/7.png" -->
+<!--#set var="PROJECT_OVERVIEW" value="Una breve introduzione al linguaggio BASIC per il microcontrollore Microchip." -->
+<!--#set var="PROJECT_DATE" value="18/01/2014" -->

@@ -1,0 +1,124 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 14</h2>
+</div>
+
+<h4>COSTANTI</h4>
+
+<p>
+Oltre alle variabili abbiamo a disposizione le costanti.
+Le costanti sono aree di memoria che non possono variare nel tempo, ovvero rimangono costanti.
+Possono essere utilizzate nei programmi al posto dei valori numerici od altro.<br/>
+Sono molto comode quando un valore per i vari calcoli pu&ograve; variare a distanza di anni, facciamo un
+esempio.
+</p>
+
+<p>
+Supponiamo di dover effettuare 5 calcoli:
+</p>
+
+<pre>
+Calcolo1 = Lavoro1 + 20%
+Calcolo2 = Lavoro2 + 20%
+Calcolo3 = Lavoro3 + 20%
+Calcolo4 = Lavoro4 + 20%
+Calcolo5 = Fattura + 20%
+</pre>
+
+<p>
+In questo caso i 4 lavori avrebbero un importo differente tra loro mentre il 20% (l'IVA) rimarr&agrave;
+sempre la stessa, un domani che l'IVA aumenta o diminuisce bisognerebbe modificare a mano tutti e
+5 i valori.
+</p>
+
+<p>
+Per evitare questo si utilizzano le costanti, si crea una costante chiamata IVA e si assegna il valore
+20%, e si utilizza nel seguente modo:
+</p>
+
+<pre>
+Costante IVA = 20%
+Calcolo1 = Lavoro1 + IVA
+Calcolo2 = Lavoro2 + IVA
+Calcolo3 = Lavoro3 + IVA
+Calcolo4 = Lavoro4 + IVA
+Calcolo5 = Fattura + IVA
+</pre>
+
+<p>
+In questo caso se l'IVA cambia basta sostituire solo il valore 20% senza andare a toccare il
+programma, con un notevole risparmio di tempo.
+</p>
+
+<p>
+Per dichiarare una costante si utilizza la seguente sintassi:
+</p>
+
+<pre>
+'Struttura generale
+#DEFINE NomeCostante Valore
+'Dichiarazione tipo
+#DEFINE IVA 20%
+</pre>
+
+<p>
+Esempio:
+</p>
+
+<pre>
+#chip 16f84, 4 'Questo serve ad indicare il tipo di PIC utilizzato
+#DEFINE Costante 8 'Costante di valore 8
+DIM Numero1 as Byte 'Variabile generica 1
+DIM Numero2 as Byte 'Variabile generica 2
+DIM TotaleVariabili as byte 'Variabile per contenere il totale
+DIM Variabile as Byte 'Variabile generale
+Numero1 = 5 'Inizializzazione della variabile
+Numero2 = 7 'Inizializzazione della variabile
+Variabile = 5 'Inizializzazione della variabile
+Variabile = Variabile + 1 + Costante 'Incremento della variabile
+TotaleVariabili = Numero1 + Numero2 'Totale delle variabili
+Variabile = Variabile + 3 + Costante 'Incremento della variabile
+END 'Fine del programma
+</pre>
+
+<p>
+Alla quarta istruzione, usiamo la costante.
+</p>
+
+<p>
+Scrivere
+</p>
+
+<pre>
+Variabile = Variabile + 1 + Costante
+</pre>
+
+<p>
+equivale a scrivere
+</p>
+
+<pre>
+Variabile = Variabile + 1 + 8
+</pre>
+
+<p>
+Perch&eacute; la costante &egrave; di valore 8.
+</p>
+
+<p>
+In questo esercizio non si vede molto l'utilit&agrave; ma immaginate un programma con molte righe di
+codice, se dobbiamo cambiare il valore di <code>Costante</code>, lo faremo una sola volta (nella
+dichiarazione), se invece abbiamo messo i numeri li dobbiamo andare a sostituire uno ad uno.
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

@@ -1,0 +1,41 @@
+<div class="row-fluid">
+    <ul class="nav nav-pills">
+        <li><a href="<!--#echo var="BASE" -->/">Home</a></li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="<!--#echo var="BASE" -->/projects/">
+            Progetti
+            <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="<!--#echo var="BASE" -->/projects/#low"><span class="label label-success">Difficolt&agrave; BASSA</span></a>
+                    <a href="<!--#echo var="BASE" -->/projects/#medium"><span class="label label-warning">Difficolt&agrave; MEDIA</span></a>
+                    <a href="<!--#echo var="BASE" -->/projects/#high"><span class="label label-important">Difficolt&agrave; ALTA</span></a>
+                </li>
+            </ul>
+        </li>
+        <!--<li><a href="<!--#echo var="BASE" -->/tutorials/">Tutorial</a></li>-->
+        <li><a href="<!--#echo var="BASE" -->/contacts.shtml">Contatti</a></li>
+        <!--
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Chi siamo
+            <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="#">TEST</a>
+                </li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+            Partecipa
+            <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="#">TEST</a>
+                </li>
+            </ul>
+        </li>
+        -->
+    </ul>
+</div>

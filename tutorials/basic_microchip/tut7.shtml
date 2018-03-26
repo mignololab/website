@@ -1,0 +1,59 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 7</h2>
+</div>
+
+<p>
+Facciamo un sorgente (o programma) test, aprite l'IDE e scrivete quanto segue:
+</p>
+
+<pre>
+'Questo serve ad indicare il tipo di PIC utilizzato
+'In questo caso il 16f84 e la frequenza in questo caso 4 Mhz
+<b><i>#chip 16f84, 4</i></b>
+
+'Fine del sorgente
+<b><i>END</i></b>
+</pre>
+
+<p>
+Ora salvatelo con nome dal men&ugrave; <i>File</i> o dal pulsante salva <img src="tut7_images/salva.jpg"> e compilatelo con l'icona
+<img src="tut7_images/compila.jpg">.<br/>
+Si aprir&agrave; la finestra che vi avverte della compilazione, la potete vedere in basso.
+</p>
+
+<p class="text-center">
+<img src="tut7_images/dosgcbasic.jpg">
+</p>
+
+<p>
+Alla fine della compilazione la finestra si chiuder&agrave; ed appariranno i file contrassegnati in rosso,
+nella cartella dove &egrave; presente il file COMPILE.BAT:
+</p>
+
+<p class="text-center">
+<img src="tut7_images/filelista.jpg">
+</p>
+
+<p>
+&Egrave; anche possibile compilare il sorgente scrivendolo con il blocco note e trascinando sullicona
+COMPILE.BAT il file appena creato.
+</p>
+
+<p>
+Il file che deve essere scaricato all'interno del PIC &egrave; COMPILED.HEX, mentre la conversione in
+assembler &egrave; contenuta nel file COMPILED.ASM.<br/>
+Gli altri file per il momento non ci interessano.
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

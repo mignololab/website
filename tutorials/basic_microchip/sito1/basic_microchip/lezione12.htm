@@ -1,0 +1,67 @@
+<html>
+
+<head>
+
+<title>LEZIONE 12</title>
+
+<LINK href="../../../../style/stile.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body >
+
+<div class=Section1>
+
+<h1>LEZIONE 12</h1>
+
+<h3>Quando si dichiarano le variabili, non si possono usare degli spazzi, non a caso <i>TotaleParziale</i> &egrave
+tutto attaccato, non possono iniziare con dei numeri, quindi &egrave errato scrivere 1TotaleParziale e non
+si possono usare delle parole chiavi.<br>
+Riassumendo, non &egrave corretto scrivere:<br><br></h3>
+
+
+<h3><i>Dim 1TotaleParziale as Byte<br>
+Dim Totale Parziale as Byte<br>
+Dim #CHIP as Byte</i><br><br></h3>
+
+<h3>Le variabili di solito sono dichiarate all'inizio del sorgente, anche se molti compilatori permettono
+di dichiarare le variabili all'interno del codice &egrave buona norma dichiararle all'inizio.<br>
+Questo per permettere un facile rintracciamento in caso di errori del sorgente o di logica.
+<br></h3>
+
+<h3>Una volta dichiarate le variabili, si possono utilizzare all'interno del programma.<br></h3>
+
+<h3>La prima istruzione <i>"TotaleParziale = 3+3"</i> somma i due valori ed <i>"assegna"</i> il risultato alla
+variabile TotaleParziale.<br>
+Le istruzioni si leggono da destra verso sinistra ed il segno = &egrave l'operatore d'assegnazione.<br>
+Quindi il risultato dell'operazione 3+3 &egrave assegnato (inserito) alla locazione di memoria chiamata
+TotaleParziale.<br>
+Nella seconda istruzione (Totale = TotaleParziale + 3), si somma il contenuto della
+variabile TotaleParziale (che &egrave 6) all'altro 3 ed il risultato s'inserisce nella variabile chiamata Totale
+(che &grave 9).<br>
+Alla fine delle due operazioni noi avremmo due variabili che contengono il totale parziale ed il
+totale finale dell'operazione.<br></h3>
+
+<h3>Le variabili possono essere usate al posto dei numeri o per memorizzare dei valori che poi andranno
+cambiati.<br><br><h3>
+Esempio:<br><br>
+
+<h3>#chip 16f84, 4 <i>'Tipo di PIC utilizzato e frequenza</i><br>
+DIM  Numero1 as Byte <i>'Variabile generica 1</i><br>
+DIM  Numero2 as Byte <i>'Variabile generica 2</i><br>
+DIM  Numero3 as Byte <i>'Variabile generale</i><br>
+DIM  TotaleVariabili as byte <i>'Variabile per contenere il totale</i><br>
+Numero1 = 5 <i>'Inizializzazione della variabile</i><br>
+Numero2 = 7 <i>'Inizializzazione della variabile</i><br>
+Numero3 = 3 <i>'Inizializzazione della variabile</i><br>
+Numero3 = Numero3 +1 <i>'Incremento della variabile</i><br>
+TotaleVariabili = Numero1 + Numero2 <i>'Totale delle variabili</i><br>
+Numero3 = Numero3 +3 <i>'Incremento della variabile</i><br>
+END <i>'Fine del programma</i><br>
+
+
+</h3><br><br>
+
+<a href="lezione13.htm">LEZIONE 13</a><br>
+<a href="lezione11.htm">LEZIONE 11</a><br>
+</body></html>

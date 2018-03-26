@@ -1,0 +1,97 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="page-header page-header-article">
+<h2>Dock station per cellulare <span class="difficulty label label-success">Difficolt&agrave;: BASSA</span></h2>
+</div>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/dock_cell.jpg" width="320" height="240">
+</div>
+
+<p>
+Mi sono ritrovato un sistema per PC 2.1 funzionanti e non sapendo che farci
+ho deciso di trasformarli in una dock per cellulare.
+Con la funzione radio e lettore MP3 del cellulare è un valido sostituto alla radio
+tradizionale, con un consumo minore.
+</p>
+
+<h5>Cosa avevo a disposizione:</h5>
+
+<ul> 
+  <li>Una cassa PC 2.1.</li>
+  <li>Biadesivo.</li>
+</ul>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/dock_cell1.jpg" width="320" height="240">
+</div>
+
+<p>
+La prima cosa da fare è "incollare" le due casse con un angolo di 45 gradi
+sul woofer, questo vi permette di non avere il suono diretto sul cellulare
+e poter usare i pulsanti di accensione e volume.
+</p>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/dock_cell1.jpg" width="320" height="240">
+<img border="0" src="images/dock_cell2.jpg" width="320" height="240">
+</div>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/dock_cell3.jpg" width="320" height="240">
+</div>
+
+<p>Ora bisogna creare dei supporti per il cellulare, va bene qualsiasi
+cosa come:</p>
+<ul>
+     <li>Barra ad U.</li>
+     <li>Due pezzi di legno uno davanti l'altro a formare un binario.</li>
+     <li>Supporto per cellulari da auto.</li>
+     <li>ETC etc.</li>
+</ul>
+
+
+Io ho usato delle chiavi per smontare uno stereo da auto che oramai non
+usavo più, sempre bloccati con il biadesivo.
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/dock_cell7.jpg" width="320" height="240">
+</div>
+
+<p>
+Adesso sistemate i fili in modo che non diano intralcio, magari nascondendoli
+dietro il woofer, ricordate di lasciare lunghi il filo dell'alimentazione
+ed il filo dell'ingresso audio, che fungerà anche da antenna per la radio,
+quindi lasciatelo un po lungo.
+</p>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/dockcell5.jpg" width="320" height="240">
+</div>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/dockcell6.jpg" width="320" height="240">
+</div>
+
+
+<p>
+Il risultato finale è il seguente:
+</p>
+
+<div style="text-align: center">
+<img style="margin: 10px" border="0" src="images/dock_cell.jpg" width="320" height="240">
+</div>
+
+
+<div style="color: #FF0000">ATTENZIONE!!</div>
+
+<p>
+Le vibrazioni del woofer potrebbero far cadere il vostro cellulare, più o
+meno costoso, quindi create dei supporti sufficienti per sostenere il cellulare
+in base alla potenza delle casse utilizzate.
+</p>
+
+ 
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

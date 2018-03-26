@@ -1,0 +1,94 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="span9">
+
+<div class="page-header page-header-article">
+<h2>BASIC Microchip - Lezione 20</h2>
+</div>
+
+<h4>ISTRUZIONE DI SELEZIONE</h4>
+
+<p>
+Vediamo altre istruzioni, le istruzioni di selezione.
+Grazie a queste istruzioni possiamo modificare il flusso del programma.
+</p>
+
+<p>
+All’inizio il nostro programma era:
+</p>
+
+<pre>
+Inizio
+ISTRUZIONE1
+ISTRUZIONE2
+ISTRUZIONE3
+ISTRUZIONE4
+ISTRUZIONE5
+ISTRUZIONE6
+Fine
+</pre>
+
+<p>
+Ora, grazie alle istruzioni di selezione, il programma potrà avere due direzioni.
+</p>
+
+<pre>
+Inizio
+ISTRUZIONE1
+ISTRUZIONE2
+Selezione          ISTRUZIONE3
+ISTRUZIONE4
+ISTRUZIONE5
+Fine
+</pre>
+
+<p>In questo caso le istruzioni 1 e 2 saranno eseguite come nel primo programma, ma l'istruzione 3
+sar&agrave; eseguita solo se la selezione lo permette altrimenti salter&agrave; all'istruzione 4.<br/>
+Cerchiamo di capire meglio l'istruzione di selezione con un esempio.
+</p>
+
+
+<pre>
+#chip 16f84,4                   'Tipo di PIC e frequenza
+
+DIR PORTA       IN      'Istruzioni viste pi&ugrave; avanti
+DIR PORTB       OUT     'Istruzioni viste pi&ugrave; avanti
+DIM Valore as BYTE                     'Variabile generica
+Valore = 0                             'Inizializzazione
+IF Valore = 0 THEN PortB = 255 'Istruzione per accendere tutti i led
+END                                         'Fine del programma
+</pre>
+
+<p>
+L'istruzione di selezione &egrave;:
+</p>
+
+<pre>
+IF Valore = 0 THEN PortB = 255 'Istruzione per accendere tutti i led
+</pre>
+
+<p>
+<code>IF</code> &egrave; la parola chiave che identifica l'inizio dell'istruzione.
+<code>Valore = 0</code> &egrave; la condizione, se questa condizione &egrave;
+vera sar&agrave; eseguita l'istruzione dopo il <code>THEN</code>
+altrimenti andr&agrave; avanti con il programma.
+</p>
+
+<p>
+Questo programma controlla se il numero all'interno della variabile <code>Valore</code>
+&egrave; uguale a zero, se lo &egrave; accende tutti i diodi led della porta B.
+</p>
+
+<p>
+Sostituendo l'istruzione: <code>Valore = 0</code> con <code>Valore = 1</code>, vedrete che i led non si accendono
+perch&egrave; la condizione &egrave; falsa e quindi non viene eseguita nessuna istruzione.
+</p>
+
+</div>
+
+<div class="span3">
+<!--#include virtual="../../cgi-bin/tutorialnav.py?tut=basic_microchip" -->
+</div>
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->

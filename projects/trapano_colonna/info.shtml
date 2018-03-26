@@ -1,0 +1,5 @@
+<!--#set var="PROJECT_NAME" value="Supporto per trapano a colonna" -->
+<!--#set var="PROJECT_URL" value="trapano_colonna/" -->
+<!--#set var="PROJECT_IMAGE" value="trapano_colonna/images/trapano_colonna.png" -->
+<!--#set var="PROJECT_OVERVIEW" value="Costruire un supporto a colonna per trapano." -->
+<!--#set var="PROJECT_DATE" value="16/02/2015" -->

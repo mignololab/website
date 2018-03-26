@@ -1,0 +1,111 @@
+<!--#include virtual="../../config.shtml" -->
+<!--#include virtual="../../layout/lt_header.shtml" -->
+
+<div class="page-header page-header-article">
+<h2>Subwoofer <span class="difficulty label label-success">Difficolt&agrave;: BASSA</span></h2>
+</div>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/subwoofer.jpg" width="320" height="240">
+</div>
+
+<p>
+Mi sono ritrovato un sistema home theater ed una cassa per PC 2.1 parzialmente rotti.
+Non volendo buttare delle casse funzionanti e uno stato amplificatore funzionante,
+ho deciso di unire il tutto e crearmi un subwoofer per la mia macchina.
+</p>
+
+<h5>Cosa avevo a disposizione:</h5>
+
+<ul> 
+  <li>Una cassa da circa 100 watt.</li>
+  <li>Uno stadio amplificatore.</li>
+  <li>Uno stadio filtro per i bassi.</li>
+</ul>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/subwoofer_1.jpg" width="320" height="240">
+</div>
+
+<p>
+La cassa non &egrave; altro che una "scatola" opportunamente sagomata per le frequenze
+basse, con l'aggiunta di un tubo (bass reflex) per aumentare la potenza delle frequenze basse.
+Poi c'&egrave; lo stadio amplificatore con i seguenti ingressi:
+</p>
+
+<ul> 
+  <li>Rosso &mdash; Uscita subwoofer.</li>
+  <li>Verde &mdash; Alimentazione 12 Volt.</li>
+  <li>Blu &mdash; Interruttore di accenzione.</li>
+  <li>Giallo &mdash; Ingresso audio.</li>
+</ul>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/subwoofer_2.jpg" width="320" height="240">
+</div>
+
+Mentre la sezione filtro &egrave; così composta:<br> 
+
+<ul> 
+  <li>Rosso &mdash; Interruttore per attivare e disattivare il filtro.</li>
+  <li>Verde &mdash; Volume per l'amplificazione.</li>
+  <li>Blu &mdash; Aumento o diminuzione dei bassi.</li>
+</ul>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/subwoofer_3.jpg" width="320" height="240">
+</div>
+
+<p>
+Ora bisogna solo unire il tutto, in modo che le schede non fuoriescano troppo
+dalla struttura della cassa, per evitare di occupare troppo spazio.
+Ho fissato le schede con della semplice colla a caldo.
+</p>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/subwoofer_4.jpg" width="320" height="240">
+</div>
+
+<p>
+Adesso si passa ai collegamenti tra scheda e cassa, ed alla preparazione
+degli spinotti per l'alimentazione del circuito e per l'ingresso del segnale audio.
+Cercate di fissare tutto in modo da evitare che i fili diano fastidio.
+</p>
+
+<div style="text-align: center">
+<img style="margin: 10px" border="0" src="images/subwoofer_5.jpg" width="320" height="240">
+<img style="margin: 10px" border="0" src="images/subwoofer_6.jpg" width="320" height="240">
+</div>
+
+<p>
+L'ultima cosa che mi rimaneva da fare era coprire la cassa con un po di moquette per pannelli.
+Il risultato &egrave; il seguente.
+</p>
+
+<div style="text-align: center; margin: 10px 0">
+<img border="0" src="images/subwoofer.jpg" width="320" height="240">
+</div>
+
+<div style="color: #FF0000">ATTENZIONE!!</div>
+
+<p>
+Fate attenzione a come collegate l'ingresso audio, perch&eacute; il negativo non va collegato
+L'amplificatore usato da me, aveva il negativo dell'ingresso in comune con il negativo
+dell'alimentazione, quindi collegando il negativo dell'uscita stereo potete mandare
+in corto il finale.
+</p>
+
+<p>
+Per evitare brutte sorprese, vi consiglio di collegare solo il positivo del finale all'ingresso
+della scheda amplificatore.
+</p>
+
+<p>
+Per attivare il subwoofer in automatico con l'accensione dello stereo potete usare un piccolo
+rel&egrave; che fornisca alimentazione solo quando lo stereo &egrave; acceso.
+Questo lo si pu&ograve; fare collegando il rel&egrave; all'uscita ausiliaria (alimentazione antenna) che
+di solito &egrave; il filo di colore blu.
+</p>
+ 
+
+<!--#include virtual="../../layout/lt_footer.shtml" -->
