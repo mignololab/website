@@ -30,18 +30,24 @@ Nulla si crea, nulla si distrugge, tutto si trasforma.
 
 <div class="well">
 <div class="nav-header">News</div>
-<!--#include virtual="projects/primo_soccorso/info.shtml"-->
+<!--#include virtual="projects/mascherina_fai_da_te/info.shtml"-->
 <!--#include virtual="layout/proj_quicklink.shtml" -->
-<!--#include virtual="projects/regalo_personalizzato/info.shtml" -->
+<!--#include virtual="projects/maglione_presine/info.shtml" -->
 <!--#include virtual="layout/proj_quicklink.shtml" -->
-<!--#include virtual="projects/quaderni/info.shtml" -->
+<!--#include virtual="projects/restauro_pianola/info.shtml" -->
 <!--#include virtual="layout/proj_quicklink.shtml" -->
-<!--#include virtual="projects/saponette/info.shtml"-->
+<!--#include virtual="projects/recupero_grate/info.shtml"-->
 <!--#include virtual="layout/proj_quicklink.shtml" -->
-<!--#include virtual="projects/contenitori_plastica/info.shtml"-->
+<!--#include virtual="projects/bottiglia_serra/info.shtml"-->
 <!--#include virtual="layout/proj_quicklink.shtml" -->
-<!--#include virtual="projects/ripristino_bussola/info.shtml"-->
+<!--#include virtual="projects/recuperare_batterie/info.shtml"-->
 <!--#include virtual="layout/proj_quicklink.shtml" -->
+
+
+
+
+
+
 
 
 

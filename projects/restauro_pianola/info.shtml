@@ -1,0 +1,5 @@
+<!--#set var="PROJECT_NAME" value="Recuperare una pianola abbandonata" -->
+<!--#set var="PROJECT_URL" value="restauro_pianola/" -->
+<!--#set var="PROJECT_IMAGE" value="restauro_pianola/images/1.png" -->
+<!--#set var="PROJECT_OVERVIEW" value="Come recuperare una pianola abbandonata." -->
+<!--#set var="PROJECT_DATE" value="07/09/2019" -->

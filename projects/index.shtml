@@ -28,6 +28,8 @@
 <!--#include virtual="ripristino_bussola/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
 <!--#include virtual="contenitori_plastica/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
 <!--#include virtual="primo_soccorso/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="bottiglia_serra/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="restauro_pianola/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
 </div>
 
 <!-- MEDIA -->
@@ -48,6 +50,10 @@
 <!--#include virtual="blocco_notes/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
 <!--#include virtual="quaderni/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
 <!--#include virtual="regalo_personalizzato/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="recuperare_batterie/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="recupero_grate/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="maglione_presine/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="mascherina_fai_da_te/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
 </div>
 
 
