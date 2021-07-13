@@ -1,3 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "it" }}">
+
+{%- include head.html -%}
+
+<body>
+
+<div class="container-narrow">
+
+    {%- include header.html -%}
+
+    <hr/>
+
+    <div class="container-fluid container-inner" id="content">
+
+        {%- include navbar.html -%}
+
+        <div class="row-fluid">
+
+            <!-- se menu laterale presente questo diventa span9 -->
+            <div class="span12 tab-content">
+                {{ content }}
             </div>
 
             <!--
@@ -22,12 +44,12 @@
 
     </div>
 
-    <!--#include virtual="footer.shtml" -->
+    {%- include footer.html -%}
 
 </div>
 
-<script type="text/javascript" src="<!--#echo var="BASE" -->/js/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="<!--#echo var="BASE" -->/js/bootstrap-patched.min.js"></script>
+<script type="text/javascript" src="{{ "/js/jquery-1.10.2.min.js" | relative_url }}"></script>
+<script type="text/javascript" src="{{ "/js/bootstrap-patched.min.js" | relative_url }}"></script>
 
 </body>
 </html>
