@@ -19,6 +19,16 @@ description: ...nulla si crea, nulla si distrugge, tutto si trasforma.
 baseurl: ""
 url: ""
 github_username:  mignololab
+project_categories:
+  difficulty-low:
+    title: BASSA
+    class: label-success
+  difficulty-medium:
+    title: MEDIA
+    class: label-warning
+  difficulty-high:
+    title: ALTA
+    class: label-important
 
 # Build settings
 markdown: kramdown
