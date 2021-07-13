@@ -3,7 +3,7 @@ MignoloLab.org
 
 Sito web di MignoloLab: [www.mignololab.org](https://www.mignololab.org)
 
-Costruito con [Jekyll](https://jekyllrb.com/), dopo ogni push GitHub produrrà il sito e lo caricherà nel branch `gh-pages`.
+Costruito con [Jekyll](https://jekyllrb.com/). Dopo ogni push GitHub produrrà il sito e lo caricherà nel branch `gh-pages`.
 
 ## Aggiungere un progetto
 
