@@ -30,6 +30,7 @@
 <!--#include virtual="primo_soccorso/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
 <!--#include virtual="bottiglia_serra/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
 <!--#include virtual="restauro_pianola/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
+<!--#include virtual="pastone_uccelli/info.shtml" --><!--#include virtual="../layout/proj_preview.shtml" -->
 </div>
 
 <!-- MEDIA -->

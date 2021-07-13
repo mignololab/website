@@ -30,6 +30,8 @@ Nulla si crea, nulla si distrugge, tutto si trasforma.
 
 <div class="well">
 <div class="nav-header">News</div>
+<!--#include virtual="projects/pastone_uccelli/info.shtml"-->
+<!--#include virtual="layout/proj_quicklink.shtml" -->
 <!--#include virtual="projects/mascherina_fai_da_te/info.shtml"-->
 <!--#include virtual="layout/proj_quicklink.shtml" -->
 <!--#include virtual="projects/maglione_presine/info.shtml" -->
@@ -39,8 +41,6 @@ Nulla si crea, nulla si distrugge, tutto si trasforma.
 <!--#include virtual="projects/recupero_grate/info.shtml"-->
 <!--#include virtual="layout/proj_quicklink.shtml" -->
 <!--#include virtual="projects/bottiglia_serra/info.shtml"-->
-<!--#include virtual="layout/proj_quicklink.shtml" -->
-<!--#include virtual="projects/recuperare_batterie/info.shtml"-->
 <!--#include virtual="layout/proj_quicklink.shtml" -->
 
 
