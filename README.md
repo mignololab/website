@@ -12,7 +12,7 @@ Costruito con [Jekyll](https://jekyllrb.com/). Dopo ogni push GitHub produrrà i
 * Caricare immagini in `site/_posts/nome_progetto/images`
 
 La pagina HTML del progetto non ha bisogno del `<div>` del titolo (sarà costruito automaticamente, inclusa la targhetta della difficoltà),
-ma dovrà avere un blocco in YAML all'inizio strutturato così (sono i metadati del progetto):
+e dovrà avere i soli contenuti della pagina, esclusi header, footer o altro; dovrà anche avere un blocco all'inizio del file strutturato così (sono i metadati del progetto):
 
 ```yaml
 ---
