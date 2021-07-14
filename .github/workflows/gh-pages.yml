@@ -14,3 +14,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           jekyll_src: site
+          jekyll_build_options: -b /website
+
