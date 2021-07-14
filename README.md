@@ -9,7 +9,7 @@ Costruito con [Jekyll](https://jekyllrb.com/). Dopo ogni push GitHub produrrà i
 
 * Creare una cartella per il progetto in `site/_posts`, es. `site/_posts/adattatore_cell_caval`
 * Creare la pagina HTML del progetto in `site/_posts/adattatore_cell_caval/2015-05-10-adattatore_cell_caval.html`, valorizzando la data come nell'esempio nel nome del file
-* Caricare immagini in `site/_posts/nome_progetto/images`
+* Caricare le immagini in `site/_posts/adattatore_cell_caval/images`
 
 La pagina HTML del progetto non ha bisogno del `<div>` del titolo (sarà costruito automaticamente, inclusa la targhetta della difficoltà),
 e dovrà avere i soli contenuti della pagina, esclusi header, footer o altro; dovrà anche avere un blocco all'inizio del file strutturato così (sono i metadati del progetto):
