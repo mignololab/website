@@ -7,9 +7,9 @@ Costruito con [Jekyll](https://jekyllrb.com/). Dopo ogni push GitHub produrrà i
 
 ## Aggiungere un progetto
 
-* Creare una cartella per il progetto in `_posts`, es. `_posts/adattatore_cell_caval`
-* Creare la pagina HTML del progetto in `_posts/adattatore_cell_caval/2015-05-10-adattatore_cell_caval.html`, valorizzando la data come nell'esempio nel nome del file
-* Caricare immagini in `_posts/nome_progetto/images`
+* Creare una cartella per il progetto in `site/_posts`, es. `site/_posts/adattatore_cell_caval`
+* Creare la pagina HTML del progetto in `site/_posts/adattatore_cell_caval/2015-05-10-adattatore_cell_caval.html`, valorizzando la data come nell'esempio nel nome del file
+* Caricare immagini in `site/_posts/nome_progetto/images`
 
 La pagina HTML del progetto non ha bisogno del `<div>` del titolo (sarà costruito automaticamente, inclusa la targhetta della difficoltà),
 ma dovrà avere un blocco in YAML all'inizio strutturato così (sono i metadati del progetto):
