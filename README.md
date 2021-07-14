@@ -29,5 +29,4 @@ La categoria del post può essere `difficulty-low`, `difficulty-medium` o `diffi
 Gli attributi `layout` e `permalink` devono rimanere così, sono stringhe cablate di configurazione.
 
 A quel punto basterà committare e pushare: GitHub si occuperà di costruire e pubblicare il sito (entro 3-4 minuti).
-
 Non c'è bisogno di aggiornare la sezione "News" nell'home page: il sistema inserirà automaticamente i 6 progetti più recenti.
