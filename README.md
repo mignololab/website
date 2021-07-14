@@ -7,9 +7,24 @@ Costruito con [Jekyll](https://jekyllrb.com/). Dopo ogni push GitHub produrrà i
 
 ## Aggiungere un progetto
 
-TODO:
+* Creare una cartella per il progetto in `_posts`, es. `_posts/adattatore_cell_caval`
+* Creare la pagina HTML del progetto in `_posts/adattatore_cell_caval/2015-05-10-adattatore_cell_caval.html`, valorizzando la data come nell'esempio nel nome del file
+* Caricare immagini in `_posts/nome_progetto/images`
 
-* creare cartella in _posts/slug_nome_progetto
-* creare file html _posts/slug_nome_progetto/yyyy-mm-dd-slug_nome_progetto.html
-* salvare immagini o altri asset in _posts/slug_nome_progetto/images o altra sottocartella
-* popolare front matter (specificare cosa e come)
+La pagina HTML del progetto non ha bisogno del `<div>` del titolo (sarà costruito automaticamente, inclusa la targhetta della difficoltà),
+ma dovrà avere un blocco in YAML all'inizio strutturato così (sono i metadati del progetto):
+
+```yaml
+---
+layout: project
+title: "Costruire un supporto per cellulari da cavalletto"
+summary: "Come adattare un porta cellulare per il supporto al cavalletto."
+category: difficulty-low
+poster: adattatore_cell_caval/images/adattatore_cell_cavalletto.png
+permalink: /projects/:title/
+---
+```
+
+La categoria del post può essere `difficulty-low`, `difficulty-medium` o `difficulty-high`.
+
+A quel punto basterà committare e pushare: GitHub si occuperà di costruire e pubblicare il sito (entro 3-4 minuti).
