@@ -3,8 +3,6 @@ on:
   push:
     branches:
       - master
-      # TODO remove this when branch gets merged
-      - gh-hosting
 
 jobs:
   gh-pages:
