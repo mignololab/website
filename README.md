@@ -12,4 +12,4 @@ TODO:
 * creare cartella in _posts/slug_nome_progetto
 * creare file html _posts/slug_nome_progetto/yyyy-mm-dd-slug_nome_progetto.html
 * salvare immagini o altri asset in _posts/slug_nome_progetto/images o altra sottocartella
-* popolare frontmatter (specificare cosa e come)
+* popolare front matter (specificare cosa e come)
