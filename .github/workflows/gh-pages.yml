@@ -1,0 +1,16 @@
+name: Build and deploy website to GitHub Pages
+on:
+  push:
+    branches:
+      - master
+      # TODO remove this when branch gets merged
+      - gh-hosting
+
+jobs:
+  gh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
