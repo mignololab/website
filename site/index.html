@@ -31,19 +31,12 @@ layout: default
 
     <div class="well">
         <div class="nav-header">News</div>
-        <!-- TODO migrate -->
-        <!--#include virtual="projects/pastone_uccelli/info.shtml"-->
-        <!--#include virtual="layout/proj_quicklink.shtml" -->
-        <!--#include virtual="projects/mascherina_fai_da_te/info.shtml"-->
-        <!--#include virtual="layout/proj_quicklink.shtml" -->
-        <!--#include virtual="projects/maglione_presine/info.shtml" -->
-        <!--#include virtual="layout/proj_quicklink.shtml" -->
-        <!--#include virtual="projects/restauro_pianola/info.shtml" -->
-        <!--#include virtual="layout/proj_quicklink.shtml" -->
-        <!--#include virtual="projects/recupero_grate/info.shtml"-->
-        <!--#include virtual="layout/proj_quicklink.shtml" -->
-        <!--#include virtual="projects/bottiglia_serra/info.shtml"-->
-        <!--#include virtual="layout/proj_quicklink.shtml" -->
+        {% for post in site.posts limit:6 %}
+        <div>
+            [{{ post.date | date: '%d/%m/%Y' }}]
+            <a href="{{ post.url }}">{{ post.title }}</a>&nbsp;&mdash;&nbsp;{{ post.summary }}
+        </div>
+        {% endfor %}
     </div>
 
 </div>
