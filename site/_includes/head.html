@@ -3,17 +3,17 @@
 <meta charset="utf-8">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="language" content="en" />
+<meta name="language" content="{{ page.lang | default: site.lang | default: "it" }}" />
 <meta name="google-site-verification" content="U9FlWvLxHObNGE69E-yd_oB8vrtFvZZE6UAWpMVvVqA" />
 
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title }}">
 <meta property="og:type" content="{{ layout.og_type }}">
 {% if layout.og_cover_basepath and page.poster %}
-<meta property="og:image" content="{{ layout.og_cover_basepath | append: page.poster | absolute_url }}">
+<meta name="image" property="og:image" content="{{ layout.og_cover_basepath | append: page.poster | absolute_url }}">
 {% endif %}
 {% if page.summary %}
-<meta property="og:description" content="{{ page.summary }}">
+<meta name="description" property="og:description" content="{{ page.summary }}">
 {% endif %}
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 
