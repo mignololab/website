@@ -17,7 +17,8 @@ title: MignoloLab
 email: info@mignololab.org
 description: ...nulla si crea, nulla si distrugge, tutto si trasforma.
 baseurl: ""
-url: ""
+domain: www.mignololab.org
+url: https://www.mignololab.org
 github_username:  mignololab
 project_categories:
   difficulty-low:
