@@ -202,19 +202,19 @@ i.icon-custom {
 }
 
 i.icon-facebook {
-  background-image: url("../img/mini_facebook.png");  
+  background-image: url("../images/mini_facebook.png");
 }
 
 i.icon-youtube {
-  background-image: url("../img/mini_youtube.png");  
+  background-image: url("../images/mini_youtube.png");
 }
 
 i.icon-twitter {
-  background-image: url("../img/mini_twitter.png");  
+  background-image: url("../images/mini_twitter.png");
 }
 
 i.icon-email {
-  background-image: url("../img/mini_email.png");  
+  background-image: url("../images/mini_email.png");
 }
 
 p.lead i[class^="icon-"], p.lead i[class*=" icon-"] {
