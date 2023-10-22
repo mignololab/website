@@ -14,10 +14,8 @@
 <meta name="image" property="og:image" content="{{ layout.og_cover_basepath | append: page.poster | absolute_url }}">
 <meta name="twitter:image" content="{{ layout.og_cover_basepath | append: page.poster | absolute_url }}">
 {% endif %}
-{% if page.summary %}
-<meta name="description" property="og:description" content="{{ page.summary }}">
-<meta name="twitter:description" content="{{ page.summary }}">
-{% endif %}
+<meta name="description" property="og:description" content="{{ page.summary | default:site.description }}">
+<meta name="twitter:description" content="{{ page.summary | default:site.description }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="twitter:url" content="{{ page.url | absolute_url }}">
 <meta name="twitter:card" content="summary">
