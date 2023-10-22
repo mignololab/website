@@ -8,14 +8,19 @@
 
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title }}">
+<meta name="twitter:title" content="{{ page.title }}">
 <meta property="og:type" content="{{ layout.og_type }}">
 {% if layout.og_cover_basepath and page.poster %}
 <meta name="image" property="og:image" content="{{ layout.og_cover_basepath | append: page.poster | absolute_url }}">
+<meta name="twitter:image" content="{{ layout.og_cover_basepath | append: page.poster | absolute_url }}">
 {% endif %}
 {% if page.summary %}
 <meta name="description" property="og:description" content="{{ page.summary }}">
+<meta name="twitter:description" content="{{ page.summary }}">
 {% endif %}
 <meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="twitter:url" content="{{ page.url | absolute_url }}">
+<meta name="twitter:card" content="summary">
 
 <!--link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /-->
 
