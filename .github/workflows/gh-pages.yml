@@ -24,11 +24,10 @@ jobs:
       # Use GitHub Deploy Action to build and deploy to Github
       # For latest version: `jeffreytse/jekyll-deploy-action@master`
       - uses: jeffreytse/jekyll-deploy-action@v0.6.0
+        working-directory: ./site
         with:
           token: ${{ secrets.GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
           branch: 'gh-pages'         # Default is gh-pages for github provider
-          jekyll_src: './site'       # Default is root directory
+          jekyll_src: './'           # Default is root directory
           jekyll_cfg: '_config.yml'  # Default is _config.yml
-          ruby_ver: ''               # Default is 3.2.0 version
-          bundler_ver: ''            # Default is compatible bundler version (~>2.5.0)
           cname: 'www.mignololab.org' # Default is to not use a cname
